@@ -1,0 +1,27 @@
+<!-- Thành phần dùng chung: thanh đầu trang -->
+<header class="app-header">
+  <div class="header-title">
+    <span class="eyebrow">SMARTSHELF · CUSTOMER / SHOPPER</span>
+    <h1 id="page-title">Mua sắm thông minh hơn</h1>
+  </div>
+
+  <div class="header-actions">
+    <form class="header-search" action="shopper-product-search.html" method="get" role="search">
+      <label class="visually-hidden" for="global-search">Tìm sản phẩm</label>
+      <input id="global-search" name="q" type="search" class="form-control"
+             placeholder="Tìm sản phẩm..." autocomplete="off">
+      <button class="btn btn-primary" type="submit" aria-label="Tìm kiếm">⌕</button>
+    </form>
+
+    <button type="button" class="header-icon-button position-relative"
+            id="notification-button" aria-label="Thông báo"
+            data-bs-toggle="popover" data-bs-trigger="focus"
+            data-bs-content="Bạn chưa có thông báo mới.">
+      ♧
+      <span class="notification-dot" aria-hidden="true"></span>
+    </button>
+
+    <a class="header-icon-button cart-link" href="cart-checkout.html"
+       aria-label="Mở giỏ hàng">🛒 <span id="header-cart-count">0</span></a>
+  </div>
+</header>

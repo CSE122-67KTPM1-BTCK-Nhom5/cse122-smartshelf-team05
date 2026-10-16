@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SmartShelf - Khách hàng</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="index.html"><span class="brand-icon">◆</span> SmartShelf</a>
+      <nav class="nav flex-column mt-4">
+        <a class="nav-link active" href="shopper-product-search.html">⌕ <span>Tìm kiếm sản phẩm</span></a>
+        <a class="nav-link" href="shopper-product-location.html">♧ <span>Vị trí sản phẩm</span></a>
+        <a class="nav-link" href="shopper-product-alternatives.html">✦ <span>Sản phẩm thay thế</span></a>
+        <a class="nav-link" href="cart-checkout.html">🛒 <span>Giỏ hàng <b id="cart-count"
+              class="cart-badge">0</b></span></a>
+      </nav>
+      <div class="profile">
+        <div class="avatar">NV</div>
+        <div><strong>Nguyễn Văn Hân</strong><small>Khách hàng</small></div>
+      </div>
+    </aside>
+    <main class="main-content">
+      <div class="welcome-panel">
+        <span class="eyebrow">SMARTSHELF · CUSTOMER / SHOPPER</span>
+        <h1>Mua sắm thông minh hơn</h1>
+        <p class="text-secondary mb-4">Tìm nhanh sản phẩm, xác định vị trí kệ và tìm lựa chọn thay thế khi hết hàng.</p>
+        <a class="btn btn-primary" href="shopper-product-search.html">Bắt đầu tìm sản phẩm</a>
+      </div>
+      <h2 class="section-heading mt-4">Các chức năng chính</h2>
+      <div class="row g-3">
+        <div class="col-md-6"><a class="feature-card" href="shopper-product-search.html"><span
+              class="feature-icon">⌕</span>
+            <h3>Tìm kiếm & lọc</h3>
+            <p>Tìm theo tên, danh mục, hãng và khoảng giá.</p><span class="text-primary">Mở chức năng →</span>
+          </a></div>
+        <div class="col-md-6"><a class="feature-card" href="shopper-product-location.html"><span
+              class="feature-icon">⌖</span>
+            <h3>Bản đồ kệ hàng</h3>
+            <p>Xem khu vực, kệ và tầng đặt sản phẩm.</p><span class="text-primary">Mở chức năng →</span>
+          </a></div>
+        <div class="col-md-6"><a class="feature-card" href="shopper-product-alternatives.html"><span
+              class="feature-icon">✦</span>
+            <h3>Gợi ý thay thế AI</h3>
+            <p>Khám phá sản phẩm tương đương và lý do đề xuất.</p><span class="text-primary">Mở chức năng →</span>
+          </a></div>
+        <div class="col-md-6"><a class="feature-card" href="cart-checkout.html"><span class="feature-icon">🛒</span>
+            <h3>Giỏ hàng & đặt hàng</h3>
+            <p>Kiểm tra số lượng, tổng tiền và thanh toán mô phỏng.</p><span class="text-primary">Mở chức năng →</span>
+          </a></div>
+      </div>
+    </main>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/recommendations.js"></script>
+</body>
+
+</html>

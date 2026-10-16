@@ -1,0 +1,20 @@
+smartshelf-shopper/
+├── index.html
+├── shopper-product-search.html
+├── shopper-product-location.html
+├── shopper-product-alternatives.html
+├── cart-checkout.html
+├── css/
+│   ├── style.css
+│   ├── components.css
+│   └── responsive.css
+├── js/
+│   ├── app.js
+│   ├── products.js
+│   ├── cart.js
+│   └── recommendations.js
+├── components/
+│   ├── sidebar.html
+│   ├── header.html
+│   └── toast.html
+└── images/
